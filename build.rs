@@ -14,6 +14,7 @@ fn main() {
         .define("COORDGEN_BUILD_EXAMPLE", "OFF")
         .define("COORDGEN_BUILD_SHARED_LIBS", "OFF")
         .define("CMAKE_BUILD_TYPE", "Release")
+        .define("CMAKE_INSTALL_LIBDIR", "lib")
         .uses_cxx11()
         .build();
 
