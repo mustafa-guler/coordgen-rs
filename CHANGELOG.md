@@ -1,3 +1,7 @@
+# v0.2.2
+- No api surface changes
+- Fix build errors due to failing on warning `unused-but-set-variable` warnings within coordgen itself
+
 # v0.2.1
 - No api surface changes
 - Make sure we build properly on centos/rhel/fedora distros
